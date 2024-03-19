@@ -28,43 +28,52 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Three Just Men</dc:title>
 		<meta property="file-as" refines="#title">Three Just Men, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="dcterms:alternate" refines="#title">The 3 Just Men</meta>
+		<dc:subject id="subject-1">Detective and mystery stories, English</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-1">sh85037269</meta>
+		<meta property="se:subject">Adventure</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">The Four Just Men</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">5</meta>
+		<dc:description id="description">A group of former vigilantes, recently pardoned by the British government, aids Scotland Yard in bringing a gang of thugs and murderers to justice.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;After a recent pardon by the British government, &lt;a href="https://standardebooks.org/collections/the-four-just-men"&gt;The Just Men&lt;/a&gt; continue their mission to bring criminals to justice; now employing mostly legal means.&lt;/p&gt;
+			&lt;p&gt;Forming a detective agency, The Just Men, working with Scotland Yard direct their attention to Doktor Oberzohn, head of an international cartel suspected of having instigated revolts and overthrown governments for profit.&lt;/p&gt;
+			&lt;p&gt;London has been terrorized with the death of several men connected with Oberzohn thought to be due to an escaped venomous snake. In the course of investigation, The Just Men become intrigued with the sudden interest that Oberzohn has shown in Mirabelle Leicester, a simple farmgirl and her connection with a dead father’s Angolan landclaim.&lt;/p&gt;
+			&lt;p&gt;Published in in 1925, &lt;i&gt;The Three Just Men&lt;/i&gt; was &lt;a href="https://standardebooks.org/ebooks/edgar-wallace"&gt;Edgar Wallace’s&lt;/a&gt; fifth book in the Just Men series.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20170107</dc:source>
+		<dc:source>https://archive.org/details/completefourjust0000wall</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Three_Just_Men</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-wallace_the-three-just-men</meta>
 		<dc:creator id="author">Edgar Wallace</dc:creator>
 		<meta property="file-as" refines="#author">Wallace, Edgar</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Richard Horatio Edgar Wallace</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edgar_Wallace</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80034938</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Hercules Brabazon Brabazon,</dc:contributor>
+		<meta property="file-as" refines="#artist">Brabazon, Hercules Brabazon</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Hercules_Brabazon_Brabazon</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50043170</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Al Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Haines, Al</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Cindy Beyer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Beyer, Cindy</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreaders Canada Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreaders Canada Team, The</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdpcanada.net</meta>
+		<dc:contributor id="producer-1">Norman C. Walz</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Walz, Norman C.</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
